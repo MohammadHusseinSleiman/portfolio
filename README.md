@@ -20,13 +20,13 @@ npm run build
 npm run deploy
 
 This will rebuild the project and push the latest dist folder to the gh-pages branch.
-🧠 Technologies Used
+## 🧠 Technologies Used
 - React + Vite
 - React Router (HashRouter for GitHub Pages compatibility)
 - CSS for styling
 - GitHub Pages for hosting
 
-📬 Contact
+## 📬 Contact
 - 📧 Email: mhmdwebdeveloper25@gmail.com
 - 💼 LinkedIn: https://www.linkedin.com/in/mohammad-sleiman-a4b42b294/
 
