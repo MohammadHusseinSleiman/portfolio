@@ -33,7 +33,7 @@ function Skills() {
             </div>
             <div className="skillCard">
               <i className="fab fa-node"></i>
-              <p>Node.js</p>
+              <p>PHP</p>
             </div>
             <div className="skillCard">
               <i className="fab fa-mysql"></i>

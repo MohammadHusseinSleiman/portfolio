@@ -18,9 +18,9 @@ function Footer() {
       </ul>
 
       <div className="footerSocials">
-        <a href="https://github.com/username" target="_blank" rel="noreferrer">🐙 GitHub</a>
-        <a href="https://linkedin.com/in/username" target="_blank" rel="noreferrer">💼 LinkedIn</a>
-        <a href="mailto:yourmail@gmail.com">📧 Email</a>
+        <a href="https://github.com/MohammadHusseinSleiman" target="_blank" rel="noreferrer">🐙 GitHub</a>
+        <a href="https://www.linkedin.com/in/mohammad-sleiman-a4b42b294/" target="_blank" rel="noreferrer">💼 LinkedIn</a>
+        <a href="mailto:mhmdwebdeveloper25@gmail.com">📧 Email</a>
       </div>
 
       <div className="footerCopy">
