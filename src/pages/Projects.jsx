@@ -8,8 +8,8 @@ function Projects() {
       {
         title: "Portfolio Website",
         description: "A personal portfolio built with React and CSS.",
-        demo: "https://yourportfolio.com",
-        code: "https://github.com/username/portfolio"
+        demo: "https://mohammadhusseinsleiman.github.io/portfolio/",
+        code: "https://github.com/MohammadHusseinSleiman/portfolio"
       }
     ];
 
