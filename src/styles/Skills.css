@@ -1,0 +1,90 @@
+.skillsClass {
+  padding: 100px 50px;
+  background: #fff;
+  color: #333;
+  text-align: center;
+}
+
+.skillsTitle {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00bcd4;
+}
+
+.skillsSubtitle {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #666;
+}
+
+/* Grid أساسي */
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.skillCard {
+  background: #f5f5f5;
+  padding: 25px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.skillCard:hover {
+    transform: translateY(-6px);    /* little pop up the card */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border: 1px solid #00bcd4;
+    color: #00bcd4;
+}
+
+.skillCard i {
+  font-size: 3rem;
+  color: #00bcd4;
+  margin-bottom: 10px;
+}
+
+.skillCard p {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* Responsive */
+
+/* Tablet */
+@media (max-width: 1023px) and (min-width: 600px) {
+  .skillsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .skillsTitle {
+    font-size: 2.2rem;
+  }
+  .skillsSubtitle {
+    font-size: 1.1rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 599px) {
+  .skillsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  .skillCard {
+    padding: 15px;
+  }
+  .skillsTitle {
+    font-size: 1.8rem;
+  }
+  .skillsSubtitle {
+    font-size: 1rem;
+  }
+  .skillCard i {
+    font-size: 2rem;
+  }
+  .skillCard p {
+    font-size: 0.9rem;
+  }
+}

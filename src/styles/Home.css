@@ -1,0 +1,114 @@
+.heroClass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 50px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #00bcd4, #673ab7);
+  background-size: 200% 200%;
+  animation: gradientMove 8s ease infinite;
+  color: #fff;
+  text-align: center;
+}
+
+.heroContent h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #ffeb3b;
+}
+
+/* Fade Up Animation */
+.fadeUp {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 1s ease forwards;
+}
+
+.fadeUp.delay {
+  animation-delay: 0.5s;
+}
+
+.fadeUp.delay2 {
+  animation-delay: 1s;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Type Effect */
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 3px solid #fff;
+  white-space: nowrap;
+  animation: typing 3s steps(12) forwards, blink 0.7s infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+/* Background Animation */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Buttons */
+.heroBtns {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn {
+  background: #00bcd4;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0097a7;
+  transform: scale(1.05);
+}
+
+.btn.secondary {
+  background: transparent;
+  border: 2px solid #fff;
+}
+
+.btn.secondary:hover {
+  background: #fff;
+  color: #673ab7;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .heroContent h1 {
+    font-size: 2.2rem;
+  }
+  .heroContent p {
+    font-size: 1rem;
+  }
+  .heroBtns {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
